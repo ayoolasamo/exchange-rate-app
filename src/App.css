@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.header{
+    padding-left: 8%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navmenu{
+    padding: 9% 8% 8% 7%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu{
+    background-color:#FFFFFF;
+    padding:4%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #6E729C;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ratecards-container{
+    background-color: white;
+    height: 60%;
+    margin-left: 10px !important;
+    margin-right: 20px !important;
+    padding: 4% 0%;
+    border-radius: 8px;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+    background-color:#F4F5FB !important;
+    color: #6E729C;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px !important;
+    border-style: none !important;
+    
+    
 }
+.cardlabel{
+    margin: 10%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.cardrate{
+    font-weight: bold;
+    color: #14295A;
+    font-size: larger;
+    margin: 0% 10%;
 }
