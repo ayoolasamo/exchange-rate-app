@@ -55,8 +55,7 @@ The demo of this project was depolyed on netlify it can be viewed by clicking th
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [freecodecamp] (https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-
-api-application/)
+- [freecodecamp- how to use API](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application/)
 - [React icons](https://react-icons.github.io/react-icons)
 - [Stack overflow](https://stackoverflow.com/)
 
