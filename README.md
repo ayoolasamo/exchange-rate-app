@@ -3,12 +3,12 @@
 <h1 align="center">The Exchange App</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://www.innovectives.com/" target="_blank">Innovectives Limited</a>
+   Solution for a challenge from  <a href="https://www.innovectives.com/" >Innovectives Limited</a>
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://exchange-rates-app.netlify.app/" target="_blank">
+    <a  target="_blank" href="https://exchange-rates-app.netlify.app/" >
       Demo
     </a>
     <span> | </span>
