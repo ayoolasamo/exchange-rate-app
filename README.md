@@ -40,8 +40,8 @@ The demo of this project was depolyed on netlify it can be viewed by clicking th
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/){:target="_blank" rel="noopener"}
-- [Bootstrap](https://getbootstrap.com/){:target="_blank" rel="noopener"}
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Features
 
