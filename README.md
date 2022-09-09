@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://exchange-rates-app.netlify.app/">
+    <a href="https://exchange-rates-app.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.figma.com/file/zUFyCRaYUu3Yo3Doq8B7Gs/Dashboard">
+    <a href="https://www.figma.com/file/zUFyCRaYUu3Yo3Doq8B7Gs/Dashboard" target="_blank">
       Task
     </a>
   </h3>
