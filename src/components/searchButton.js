@@ -1,14 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css' ;
+import {FiSearch} from "react-icons/fi";
 
-
-const SearchButton =()=>{
+const Searchbar =()=>{
    return(
-       <div>
-           <input></input>
+       <div >
+        <FiSearch/> <input placeholder=' Search for coins,tokens,traders,etc'className='search' />
        </div>
    )
 
 }
 
-export default SearchButton;
+export default Searchbar;

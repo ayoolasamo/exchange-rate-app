@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css' ;
-import {Link} from "react-router-dom"
+import { NavLink } from "react-router-dom";
 import {AiTwotoneHome} from "react-icons/ai";
 import {RiStackFill} from "react-icons/ri";
 import {HiLightBulb} from "react-icons/hi";
@@ -8,36 +8,38 @@ import {AiFillSetting} from "react-icons/ai";
 import logo from "../images/sidebar-logo.png";
 
 
+//The navigationbar for the site 
 export const Navbar = () => {
     return( 
         <div >
             <div className="header">
                 <img src={logo} alt="logo"></img>
             </div>
-            <div className="navmenu">
+            {/* <button class="openbtn" >&#9776; Open Sidebar</button> */}
+            <div  id= "menuid" className="navmenu  " >
                 <div className="homelink menu" >
-                    <Link to="/">
-                        <AiTwotoneHome style={{marginRight:'11%',}}/>
+                    <NavLink exact to="/" className="navlink" activeClassName="active"  >
+                        <AiTwotoneHome style={{margin:' 0% 7% 0% 4%',}}/>
                         <span>Home</span>
-                    </Link>
+                    </NavLink>
                 </div>
                 <div className="transactionlink menu">
-                    <Link to="/transaction">
-                        <RiStackFill style={{marginRight:'11%',}}/>
+                    <NavLink to="/transaction" className="navlink" activeClassName="active">
+                        <RiStackFill style={{margin:' 0% 7% 0% 4%',}}/>
                         <span>Transactions</span>
-                    </Link>
+                    </NavLink>
                 </div>
                 <div className="insightlink menu">
-                    <Link to="/insight">
-                        <HiLightBulb style={{marginRight:'11%',}}/>
+                    <NavLink to="/insight" className="navlink" activeClassName="active">
+                        <HiLightBulb style={{margin:' 0% 7% 0% 4%',}}/>
                         <span>Insights</span>
-                    </Link>
+                    </NavLink>
                 </div>
                 <div className="settingslink menu">
-                    <Link to="/settings">
-                        <AiFillSetting style={{marginRight:'11%',}}/>
+                    <NavLink to="/settings" className="navlink" activeClassName="active">
+                        <AiFillSetting style={{margin:' 0% 7% 0% 4%',}}/>
                         <span>Settings</span>
-                    </Link>
+                    </NavLink>
                 </div>
             </div>
         </div>     

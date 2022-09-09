@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App row">
       <Router>
-      <Sidebar className="col-2"/>
+      <Sidebar />
         <Switch>
-          <Route  path='/' exact component={Home} />
+          <Route  path='/' exact component={Home}></Route>
           <Route  path='/transaction' exact component={Transactions} />  
           <Route  path='/insight'  component={Insight} />
           <Route  path='/settings'  component={Settings} />
