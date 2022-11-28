@@ -5,12 +5,12 @@ import {CgArrowLongRight} from "react-icons/cg"
 
 const Trademark =()=>{
     return(
-        <div className="trademark-container">
-            <img className="trademarklogo" src={trademarklogo} alt="logo"></img><br/>
-            <span>simple crypto trading platform for everyone</span><br/><br/>
-            <span className="learnmore">Learn more 
+        <div className="trademark-container mx-3 col-5 col-lg-2 col-md-2">
+            <img className="trademarklogo w-50" src={trademarklogo} alt="logo"></img><br/>
+            <p>simple crypto trading platform for everyone</p>
+            <a className="learnmore" style={{textDecoration:"none"}}>Learn more 
                 <CgArrowLongRight className="arrow" style={{strokeWidth:"0", fontSize:"20px", marginLeft:"10%"}}/> 
-            </span>
+            </a>
         </div>
     )
 }

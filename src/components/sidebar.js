@@ -6,10 +6,9 @@ import Trademark from './trademark';
 
 export const Sidebar = () => {
   return (
-    <div className='col-md-3  '>
+    <div className='col-lg-3  '>
         <Navbar/>
-        <Trademark/>
-       
+        {/* <Trademark/> */}
     </div>
     
   )

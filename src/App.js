@@ -7,6 +7,7 @@ import {Insight } from './pages/insight';
 import { Settings} from './pages/settings';
 import {Sidebar} from './components/sidebar';
 import { Home } from './pages/home';
+import Trademark from './components/trademark';
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route  path='/insight'  component={Insight} />
           <Route  path='/settings'  component={Settings} />
         </Switch>
+        <Trademark/>
       </Router>
     </div>
   );

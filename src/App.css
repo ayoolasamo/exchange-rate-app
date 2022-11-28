@@ -1,114 +1,130 @@
-.header{
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.header {
     padding-left: 8%;
 }
-.navmenu{
+
+.navmenu {
     padding: 0% 0% 8% 7%;
     margin: 0% 0% 0% 0%;
     padding: 9% 8% 8% 7%;
-    
+
 }
 
-.menu{
-    padding:1%;
+.menu {
+    padding: 1%;
     margin-bottom: 10px;
     border-radius: 10px;
-    
+
 }
-.navlink{
-    color: #6E729C ;
+
+.navlink {
+    color: #6E729C;
     text-decoration: none;
 
-    padding:1%;
+    padding: 1%;
     display: block;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-.active{
-    background:#FFFFFF; 
+.active {
+    background: #FFFFFF;
     font-weight: 500;
     color: #454fb8;
 }
-.search{
+
+.search {
     border: 0px;
-    background-color:#F4F5FB;
+    background-color: #F4F5FB;
     font-size: 16px;
     font-weight: 350;
     width: 90%;
 }
-.ratecards-container{
+
+.ratecards-container {
     background-color: white;
     height: 50%;
-    margin-right: 20px !important;
     margin-top: 40px !important;
     padding: 2.5% 0%;
     border-radius: 8px;
-    
 }
-.card{
-    background-color:#F4F5FB !important;
+
+.ratecards-container.row {
+    --bs-gutter-x: 0rem;
+}
+
+.card {
+    background-color: #F4F5FB !important;
     color: #6E729C;
     margin: auto;
     height: 40%;
     border-radius: 10px !important;
     border-style: none !important;
-    width: 27% ;
-    
+    width: 27%;
+
 }
-.cardlabel{
+
+.cardlabel {
     margin: 8%;
 }
-.cardrate{
+
+.cardrate {
     font-weight: bold;
     color: #14295A;
-    font-size:x-large;
+    font-size: x-large;
     margin: 0% 8% 8% 8%;
 }
 
-.trademark-container{
+.navbar-light .navbar-toggler {
+    border: 0
+}
+
+.navbar-toggler.fixed-top {
+    top: 20px;
+    left: initial;
+}
+
+.trademark-container {
     background-color: #FFFFFF;
-    font-size: 10px;
-    color: #6E729C;
-    padding: 0% 0% 8% 7%;
-    margin:0% 11%;
-    width: 60%;
-    position: relative;
-    bottom: -50%;
-    
+    padding: 1%;
+    font-size: small;
+    position: absolute;
+    bottom: 20px ;
 }
-.trademarklogo{
-    width:60%;
-    height: 12%;
-}
-.learnmore{
+
+
+
+.learnmore {
     color: #14295A;
     font-weight: bolder;
 }
-/* For desktop: */
-.col-md-1 {width: 8.33%;}
-.col-md-2 {width: 16.66%;}
-.col-md-3 {width: 25%;}
-.col-md-4 {width: 33.33%;}
-.col-md-5 {width: 41.66%;}
-.col-md-6 {width: 50%;}
-.col-md-7 {width: 58.33%;}
-.col-md-8 {width: 66.66%;}
-.col-md-9 {width: 75%;}
-.col-md-10 {width: 83.33%;}
-.col-md-11 {width: 91.66%;}
-.col-md-12 {width: 100%;}
 
-@media only screen and (max-width: 768px){
- /* For mobile phones: */
- [class*="col-"] {
-     width: 100%;
+
+@media only screen and (max-width: 769px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
     }
-    .col-xs-5{
+
+    .col-xs-5 {
         width: 60% !important;
     }
-    .card{
-        margin-bottom: 5%;
+
+    .trademark-container {
+        position: relative;
+        top: 100px;
     }
-    .ratecards-container{
-        margin-left: 20% !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        flex-direction: column;
     }
 }

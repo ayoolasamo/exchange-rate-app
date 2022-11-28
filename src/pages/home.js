@@ -5,7 +5,7 @@ import RateCards from "../components/ratecards";
 
 export const Home =() =>{
      return(
-          <div className=" col-9">
+          <div className="col-11 col-lg-9 m-auto">
                <Searchbar/>
                <RateCards/>
           </div>
